@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>NEC - PC Engine CD &amp; TurboGrafx CD</name>
-		<description>NEC - PC Engine CD &amp; TurboGrafx CD - Discs (550) (2025-06-24 17-43-33)</description>
-		<version>2025-06-24 17-43-33</version>
-		<date>2025-06-24 17-43-33</date>
+		<description>NEC - PC Engine CD &amp; TurboGrafx CD - Discs (551) (2026-06-14 14-24-19)</description>
+		<version>2026-06-14 14-24-19</version>
+		<date>2026-06-14 14-24-19</date>
 		<author>redump.org</author>
 		<homepage>redump.org</homepage>
 		<url>http://redump.org/</url>
@@ -7665,14 +7665,14 @@
 		<rom name="Valis III (Japan) (Alt) (Track 71).bin" size="1966272" crc="1afc2a5c" md5="80f3be3e5ce6207a99fc4bbb2bf47471" sha1="097df22cf4f90ba64aa6832538d66159ea20d295"/>
 		<rom name="Valis III (Japan) (Alt) (Track 72).bin" size="3734976" crc="19fc04a3" md5="625fe4ce28f659a87ddb3970d75bee91" sha1="a1d1bc9be45bbd734b3abe70b431d53f05fb935d"/>
 	</game>
-	<game name="CD Battle - Hikari no Yuusha-tachi (Japan)">
+	<game name="CD Battle - Hikari no Yuushatachi (Japan)">
 		<category>Games</category>
-		<description>CD Battle - Hikari no Yuusha-tachi (Japan)</description>
-		<rom name="CD Battle - Hikari no Yuusha-tachi (Japan).cue" size="503" crc="b5cd5281" md5="a1f82d0d3cfad5f0dad44be57285a511" sha1="6ed0076bbed1bd0e6aadf6e516cdd9c1bb55f180"/>
-		<rom name="CD Battle - Hikari no Yuusha-tachi (Japan) (Track 1).bin" size="7914480" crc="e214f155" md5="d40c88eee64677e653d47a67c563ff0d" sha1="7dcb29851dae3c31ba3a831e4a976a2d7c618f62"/>
-		<rom name="CD Battle - Hikari no Yuusha-tachi (Japan) (Track 2).bin" size="2020368" crc="242e84bf" md5="393d56a3fa14fc7b85bfaa9d7065533c" sha1="91a6747cdc623f78bcf7fe34133ce8da54dc023f"/>
-		<rom name="CD Battle - Hikari no Yuusha-tachi (Japan) (Track 3).bin" size="15184512" crc="79ea6a2a" md5="108732d454467f1404019e18df41622e" sha1="9862c1b787c2ef3b2122ba6e43282972be1f4901"/>
-		<rom name="CD Battle - Hikari no Yuusha-tachi (Japan) (Track 4).bin" size="54427632" crc="a66b14af" md5="a390ec39f4c87c3bcba38137582447b1" sha1="4f7d88eb4dbe95a4ba7e9bc1f47941ed8c8fdc37"/>
+		<description>CD Battle - Hikari no Yuushatachi (Japan)</description>
+		<rom name="CD Battle - Hikari no Yuushatachi (Japan).cue" size="499" crc="04ae91a4" md5="589a3746ebeacbd9cf44be87b5a689f4" sha1="39ef5e9221b016803befff4a709388834e6db652"/>
+		<rom name="CD Battle - Hikari no Yuushatachi (Japan) (Track 1).bin" size="7914480" crc="e214f155" md5="d40c88eee64677e653d47a67c563ff0d" sha1="7dcb29851dae3c31ba3a831e4a976a2d7c618f62"/>
+		<rom name="CD Battle - Hikari no Yuushatachi (Japan) (Track 2).bin" size="2020368" crc="242e84bf" md5="393d56a3fa14fc7b85bfaa9d7065533c" sha1="91a6747cdc623f78bcf7fe34133ce8da54dc023f"/>
+		<rom name="CD Battle - Hikari no Yuushatachi (Japan) (Track 3).bin" size="15184512" crc="79ea6a2a" md5="108732d454467f1404019e18df41622e" sha1="9862c1b787c2ef3b2122ba6e43282972be1f4901"/>
+		<rom name="CD Battle - Hikari no Yuushatachi (Japan) (Track 4).bin" size="54427632" crc="a66b14af" md5="a390ec39f4c87c3bcba38137582447b1" sha1="4f7d88eb4dbe95a4ba7e9bc1f47941ed8c8fdc37"/>
 	</game>
 	<game name="Gradius II - Gofer no Yabou (Japan)">
 		<category>Games</category>
@@ -9591,26 +9591,26 @@
 		<rom name="Laplace no Ma (Japan) (Track 13).bin" size="3885504" crc="3db4106c" md5="24cc6f4c8a056a8dd7a211fdcd742017" sha1="af3b667a73a43a05267bc1d41d1c99ec459c410b"/>
 		<rom name="Laplace no Ma (Japan) (Track 14).bin" size="64214304" crc="f6081963" md5="bfec245d127f3a51f09b92032e2fb9b7" sha1="461930f2228b4fdfb1b671a766ff09e0bfead36e"/>
 	</game>
-	<game name="Shin Megami Tensei (Japan)">
+	<game name="Shin Megami Tensei (Japan) (Rev 1)">
 		<category>Games</category>
-		<description>Shin Megami Tensei (Japan)</description>
-		<rom name="Shin Megami Tensei (Japan).cue" size="1642" crc="eb2a066d" md5="77cef5a07b14fd88dd3ad4e91e32e02d" sha1="ca8b20cdb5cd386ad7e7a67c4cd0d1a91ef312ee"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 01).bin" size="3311616" crc="46acd89c" md5="f7802dc628b21b0fb02a6b1afe17905c" sha1="9c6c12f93eefd6e2906264d1780503603b2a26ac"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 02).bin" size="18630192" crc="4824740c" md5="ef490d8ef977149ae72c0ed822d1eafc" sha1="9dddf377c93ee275ac839613e09997b21bf694a7"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 03).bin" size="1117200" crc="b3521a46" md5="e98a2b196c91b4e40792503153229650" sha1="69de9f7d311cb72d5836631fca40de4054d1f44c"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 04).bin" size="785568" crc="ab676dc1" md5="bfded4015d8590d1482e5ce00b0ea7c9" sha1="5fd9304a4e663d9165d5c5592672d9c8cf994f28"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 05).bin" size="879648" crc="3d38381b" md5="54a1e5848c6547486259afdeae9e7983" sha1="9544d3a4151403213dcb18ae320772de026f6aef"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 06).bin" size="886704" crc="3f0868ff" md5="4dbb005c1f1b3a022ee399a76d7b24be" sha1="398dd78746dca7a56cddea4c4f4bf0d7e7a09767"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 07).bin" size="884352" crc="e8603212" md5="1dbc4086089d2e818b2aae295471dfc4" sha1="91d7018ae4ba48f9d602446c217887190128b813"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 08).bin" size="856128" crc="e064e62c" md5="3e6aec5ffd3e9a81f99fd4967c1daa90" sha1="1237a78d87ab6e69858c6ceebad01da1d901368b"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 09).bin" size="2827104" crc="3834e553" md5="d5a57e2c898f61dde44163d3be2e4326" sha1="ff5d3efacedf486d1a9bc60a089521e678fc3201"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 10).bin" size="1251264" crc="dee5683f" md5="5844210a9500d36c1f6ce6f2d90ed85c" sha1="4c1f126693f312fc1dba8277a411bd369455265f"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 11).bin" size="1154832" crc="9110a00d" md5="33766c28ee6ba3c88bec9b90c3a51852" sha1="13468ffeb8d0e9ad28b99f2cdea35e9aa12763fd"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 12).bin" size="3869040" crc="43f12e48" md5="bab1f1e8d71babae4cc662626efd36d1" sha1="865960bbba6c5b7997eb52b48743d2f6bb891a8b"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 13).bin" size="23275392" crc="9a109a95" md5="cbc7a252b9ba7aec0fe9b873b47b667e" sha1="e83d060f45ffd35e7a09a5d6fddc32e463c6db98"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 14).bin" size="29345904" crc="74cd8142" md5="96dce4947646e9cba944369dbddc5c39" sha1="faf63f20a887179334217743f00c4de929ecd2fa"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 15).bin" size="10666320" crc="148cf911" md5="3786946060a37564703902f60a8808ca" sha1="63f583de0ddce2f81a6db881f34dad5cc61c5f60"/>
-		<rom name="Shin Megami Tensei (Japan) (Track 16).bin" size="51384144" crc="982ff60e" md5="fdf5b28f621fd09cd497be2e1dfb87a3" sha1="a63ba469d616528d76daeb04dc75cbf85ebd5b7e"/>
+		<description>Shin Megami Tensei (Japan) (Rev 1)</description>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1).cue" size="1770" crc="8b4cba9a" md5="88895ae67c8e3f9b397346d246dbdb7d" sha1="5119142fefe78a6d982eb3910908a06bf7609f34"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 01).bin" size="3311616" crc="46acd89c" md5="f7802dc628b21b0fb02a6b1afe17905c" sha1="9c6c12f93eefd6e2906264d1780503603b2a26ac"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 02).bin" size="18630192" crc="4824740c" md5="ef490d8ef977149ae72c0ed822d1eafc" sha1="9dddf377c93ee275ac839613e09997b21bf694a7"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 03).bin" size="1117200" crc="b3521a46" md5="e98a2b196c91b4e40792503153229650" sha1="69de9f7d311cb72d5836631fca40de4054d1f44c"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 04).bin" size="785568" crc="ab676dc1" md5="bfded4015d8590d1482e5ce00b0ea7c9" sha1="5fd9304a4e663d9165d5c5592672d9c8cf994f28"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 05).bin" size="879648" crc="3d38381b" md5="54a1e5848c6547486259afdeae9e7983" sha1="9544d3a4151403213dcb18ae320772de026f6aef"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 06).bin" size="886704" crc="3f0868ff" md5="4dbb005c1f1b3a022ee399a76d7b24be" sha1="398dd78746dca7a56cddea4c4f4bf0d7e7a09767"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 07).bin" size="884352" crc="e8603212" md5="1dbc4086089d2e818b2aae295471dfc4" sha1="91d7018ae4ba48f9d602446c217887190128b813"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 08).bin" size="856128" crc="e064e62c" md5="3e6aec5ffd3e9a81f99fd4967c1daa90" sha1="1237a78d87ab6e69858c6ceebad01da1d901368b"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 09).bin" size="2827104" crc="3834e553" md5="d5a57e2c898f61dde44163d3be2e4326" sha1="ff5d3efacedf486d1a9bc60a089521e678fc3201"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 10).bin" size="1251264" crc="dee5683f" md5="5844210a9500d36c1f6ce6f2d90ed85c" sha1="4c1f126693f312fc1dba8277a411bd369455265f"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 11).bin" size="1154832" crc="9110a00d" md5="33766c28ee6ba3c88bec9b90c3a51852" sha1="13468ffeb8d0e9ad28b99f2cdea35e9aa12763fd"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 12).bin" size="3869040" crc="43f12e48" md5="bab1f1e8d71babae4cc662626efd36d1" sha1="865960bbba6c5b7997eb52b48743d2f6bb891a8b"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 13).bin" size="23275392" crc="9a109a95" md5="cbc7a252b9ba7aec0fe9b873b47b667e" sha1="e83d060f45ffd35e7a09a5d6fddc32e463c6db98"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 14).bin" size="29345904" crc="74cd8142" md5="96dce4947646e9cba944369dbddc5c39" sha1="faf63f20a887179334217743f00c4de929ecd2fa"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 15).bin" size="10666320" crc="148cf911" md5="3786946060a37564703902f60a8808ca" sha1="63f583de0ddce2f81a6db881f34dad5cc61c5f60"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 1) (Track 16).bin" size="51384144" crc="982ff60e" md5="fdf5b28f621fd09cd497be2e1dfb87a3" sha1="a63ba469d616528d76daeb04dc75cbf85ebd5b7e"/>
 	</game>
 	<game name="Dekoboko Densetsu - Hashiru Wagamanmaa (Japan)">
 		<category>Games</category>
@@ -12942,39 +12942,39 @@
 		<rom name="Wrestling Universe - Fire Pro Joshi - Dome Choujo Taisen - Zenjo vs. JWP (Japan) (Track 19).bin" size="24159744" crc="46ae428f" md5="01f7aa8bcdeefcceb01f19ec888d0ce2" sha1="756cd23aff07992d7ac6a55acd8f1b0fdcacabdb"/>
 		<rom name="Wrestling Universe - Fire Pro Joshi - Dome Choujo Taisen - Zenjo vs. JWP (Japan) (Track 20).bin" size="32521104" crc="e3a0c4d1" md5="6463b8780b0241f777a08940e8ddd9d2" sha1="ad37cbdc4c6d1c2f8466d59daa3a321ebee36e9f"/>
 	</game>
-	<game name="Ultra Box Soukan-gou (Japan)">
+	<game name="Ultra Box Soukangou (Japan)">
 		<category>Multimedia</category>
-		<description>Ultra Box Soukan-gou (Japan)</description>
-		<rom name="Ultra Box Soukan-gou (Japan).cue" size="2974" crc="f2ba8d88" md5="01f43f0e44fdac80ba1671f5c0676e59" sha1="14135f1869e6fcb0cbbc73c0f46a4bc314236f80"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 01).bin" size="7914480" crc="b979500c" md5="a25a2c129b7100092cc40e9b6e176a63" sha1="9ac3f1a11d434d186466917f1c7955bf7670c910"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 02).bin" size="196568400" crc="5d65eaa8" md5="12f426c35962510d7a5be53a0855bd91" sha1="c5322daadefb4f6fe5b0066f121a7e60f4542122"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 03).bin" size="1477056" crc="20ad3ab4" md5="6446293be53f938c821be77759e034b0" sha1="465cc9e82b0083110252bb4b825f09cf79325c17"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 04).bin" size="2615424" crc="a77837ff" md5="a51f49794675efd6b1cc7fcde16a77ff" sha1="b1be7ee398f6ac2888062c58d80a07b772ded708"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 05).bin" size="10932096" crc="7caaf2da" md5="89e21f9d7795e5fe75a59eed64041f39" sha1="caeee6ccd5c0c84f5bc693098233d040082ba920"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 06).bin" size="11931696" crc="cf2d8a8d" md5="faa841f76a84fad8602d7bddabeb7f53" sha1="5f998d62fb982f2de2ba5155c6aa5004b299daf1"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 07).bin" size="5249664" crc="36d0e05c" md5="d3f10b2f67e609c6e8e26d4f6a81111b" sha1="ce3c06dc5efc45ae17ed172e9883276788034e48"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 08).bin" size="2638944" crc="655d79bf" md5="81f9811c69c63b5f345e005b418dd9c3" sha1="6cc3f0d797d05d79a99215cd9dcafb74e0310805"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 09).bin" size="6980736" crc="be106347" md5="b01c20d3c94aecd9255aca967d9aae6b" sha1="40eb6c0f7a4d63de79d467a11d001e83ac346c94"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 10).bin" size="9090480" crc="2846f2aa" md5="54dca669cdcbebcf7ab0159aea23bdb8" sha1="56a6e9fa87389f1e03ae1a163a34b3f02e53fa59"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 11).bin" size="12945408" crc="74d7d2fa" md5="ef93e98ffbf338ff42c3f86dd2426da0" sha1="1c5504575d41d0931a415f687e2084a77fed4db6"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 12).bin" size="6893712" crc="68404259" md5="2ac861aa8e4fc1a63f1a591fb3c32642" sha1="bf8baf5f52d4c6a075230284aaec47d53b83d403"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 13).bin" size="7745136" crc="1570bfe4" md5="ada322669ec7fe5f7dca798ec290a064" sha1="04918b538cdca49b82f1e5c69c126c14b62042da"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 14).bin" size="1509984" crc="2047ff0d" md5="7e2da8ec0733dc7d95d9d1914cb6dd2b" sha1="705c41758ca9afb462ea51f155d4302e487fcbc8"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 15).bin" size="2003904" crc="1f445cf5" md5="59c6cb5419dca96db29d71ae82afc61d" sha1="e80de89e520e9103ed2f7720d3a54dd79bfcdcbe"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 16).bin" size="1980384" crc="4d0fe44e" md5="ee9f1a415cfe39442a736accf568f338" sha1="feacf8e569d661837b1f44e4b7318e7145a09294"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 17).bin" size="1143072" crc="d6aee4f8" md5="6602753249c56cb13d748bfebf82422f" sha1="94b51c16cf564b093d72218fd885c7ec4fee2a48"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 18).bin" size="2469600" crc="eac6c672" md5="3ba7d929fec6ec534bf014639430724c" sha1="f7c5a1bdf159aa7ed841eb65182b203dc6fbf34b"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 19).bin" size="1686384" crc="78e874f7" md5="a4b56d5b7c09eade550e0131c4cc737a" sha1="db8b51e13b70e400730fc648f8caea8c42b2fd4d"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 20).bin" size="1618176" crc="78b73fb8" md5="802181480d3c97b71e9f3935fa14a287" sha1="c63987d59e43204fd0f138d85c86ec595d136c15"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 21).bin" size="1462944" crc="3c480542" md5="cb400edc5e9f5ec96271a7e2f1522d05" sha1="de60189f182cbbcae1a033d42eb3acc16989fd9a"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 22).bin" size="1761648" crc="d23ec9da" md5="9f8280b9287707e4e8e2367752f8b78a" sha1="c9b76d329bffad7011a2fcb0439adf82ba6cd88e"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 23).bin" size="1272432" crc="71086cb8" md5="585cfc484e2db601d175003016bedfb3" sha1="61ed6a665d01fa5e746512017587c72b664637da"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 24).bin" size="874944" crc="89190043" md5="2afc4aae4c7bd6e4371320dff5199f8f" sha1="06c9bc8d3dabcd4c969cafa237495eed8fee083e"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 25).bin" size="1300656" crc="337482d2" md5="b0b023d7fb55f6ccf56e662545e2c365" sha1="b4727355015db78c1bbe7c75e161a56faa2157f2"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 26).bin" size="1655808" crc="e23a1bfd" md5="5b968ab9d60cc8876d4f485298402c9e" sha1="f148263112fbf26a12238820674dbddb66395e8b"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 27).bin" size="1279488" crc="62d8f2c7" md5="e96d2935c8e21bbf8aea09541192856b" sha1="e15e1ec80ba5012feb87b169179a4f3b670c9e3d"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 28).bin" size="14970480" crc="7280a7b5" md5="19bcab889419c7764d0a0a1200304367" sha1="0c6d8c5c84989e7ee864a258e85125b1e4113cb9"/>
-		<rom name="Ultra Box Soukan-gou (Japan) (Track 29).bin" size="1034880" crc="e24fc70c" md5="2db1275d13d684e89499e211d30cae7b" sha1="8d06844a20a6bb6d1dd77c009e885ea762439228"/>
+		<description>Ultra Box Soukangou (Japan)</description>
+		<rom name="Ultra Box Soukangou (Japan).cue" size="2945" crc="2e7cb564" md5="9c52b64f1f25b0fe2bea9a9364ea09d1" sha1="a01301a88fd19db7f2744fd1571a06a96c0e407d"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 01).bin" size="7914480" crc="b979500c" md5="a25a2c129b7100092cc40e9b6e176a63" sha1="9ac3f1a11d434d186466917f1c7955bf7670c910"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 02).bin" size="196568400" crc="5d65eaa8" md5="12f426c35962510d7a5be53a0855bd91" sha1="c5322daadefb4f6fe5b0066f121a7e60f4542122"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 03).bin" size="1477056" crc="20ad3ab4" md5="6446293be53f938c821be77759e034b0" sha1="465cc9e82b0083110252bb4b825f09cf79325c17"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 04).bin" size="2615424" crc="a77837ff" md5="a51f49794675efd6b1cc7fcde16a77ff" sha1="b1be7ee398f6ac2888062c58d80a07b772ded708"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 05).bin" size="10932096" crc="7caaf2da" md5="89e21f9d7795e5fe75a59eed64041f39" sha1="caeee6ccd5c0c84f5bc693098233d040082ba920"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 06).bin" size="11931696" crc="cf2d8a8d" md5="faa841f76a84fad8602d7bddabeb7f53" sha1="5f998d62fb982f2de2ba5155c6aa5004b299daf1"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 07).bin" size="5249664" crc="36d0e05c" md5="d3f10b2f67e609c6e8e26d4f6a81111b" sha1="ce3c06dc5efc45ae17ed172e9883276788034e48"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 08).bin" size="2638944" crc="655d79bf" md5="81f9811c69c63b5f345e005b418dd9c3" sha1="6cc3f0d797d05d79a99215cd9dcafb74e0310805"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 09).bin" size="6980736" crc="be106347" md5="b01c20d3c94aecd9255aca967d9aae6b" sha1="40eb6c0f7a4d63de79d467a11d001e83ac346c94"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 10).bin" size="9090480" crc="2846f2aa" md5="54dca669cdcbebcf7ab0159aea23bdb8" sha1="56a6e9fa87389f1e03ae1a163a34b3f02e53fa59"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 11).bin" size="12945408" crc="74d7d2fa" md5="ef93e98ffbf338ff42c3f86dd2426da0" sha1="1c5504575d41d0931a415f687e2084a77fed4db6"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 12).bin" size="6893712" crc="68404259" md5="2ac861aa8e4fc1a63f1a591fb3c32642" sha1="bf8baf5f52d4c6a075230284aaec47d53b83d403"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 13).bin" size="7745136" crc="1570bfe4" md5="ada322669ec7fe5f7dca798ec290a064" sha1="04918b538cdca49b82f1e5c69c126c14b62042da"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 14).bin" size="1509984" crc="2047ff0d" md5="7e2da8ec0733dc7d95d9d1914cb6dd2b" sha1="705c41758ca9afb462ea51f155d4302e487fcbc8"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 15).bin" size="2003904" crc="1f445cf5" md5="59c6cb5419dca96db29d71ae82afc61d" sha1="e80de89e520e9103ed2f7720d3a54dd79bfcdcbe"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 16).bin" size="1980384" crc="4d0fe44e" md5="ee9f1a415cfe39442a736accf568f338" sha1="feacf8e569d661837b1f44e4b7318e7145a09294"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 17).bin" size="1143072" crc="d6aee4f8" md5="6602753249c56cb13d748bfebf82422f" sha1="94b51c16cf564b093d72218fd885c7ec4fee2a48"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 18).bin" size="2469600" crc="eac6c672" md5="3ba7d929fec6ec534bf014639430724c" sha1="f7c5a1bdf159aa7ed841eb65182b203dc6fbf34b"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 19).bin" size="1686384" crc="78e874f7" md5="a4b56d5b7c09eade550e0131c4cc737a" sha1="db8b51e13b70e400730fc648f8caea8c42b2fd4d"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 20).bin" size="1618176" crc="78b73fb8" md5="802181480d3c97b71e9f3935fa14a287" sha1="c63987d59e43204fd0f138d85c86ec595d136c15"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 21).bin" size="1462944" crc="3c480542" md5="cb400edc5e9f5ec96271a7e2f1522d05" sha1="de60189f182cbbcae1a033d42eb3acc16989fd9a"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 22).bin" size="1761648" crc="d23ec9da" md5="9f8280b9287707e4e8e2367752f8b78a" sha1="c9b76d329bffad7011a2fcb0439adf82ba6cd88e"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 23).bin" size="1272432" crc="71086cb8" md5="585cfc484e2db601d175003016bedfb3" sha1="61ed6a665d01fa5e746512017587c72b664637da"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 24).bin" size="874944" crc="89190043" md5="2afc4aae4c7bd6e4371320dff5199f8f" sha1="06c9bc8d3dabcd4c969cafa237495eed8fee083e"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 25).bin" size="1300656" crc="337482d2" md5="b0b023d7fb55f6ccf56e662545e2c365" sha1="b4727355015db78c1bbe7c75e161a56faa2157f2"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 26).bin" size="1655808" crc="e23a1bfd" md5="5b968ab9d60cc8876d4f485298402c9e" sha1="f148263112fbf26a12238820674dbddb66395e8b"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 27).bin" size="1279488" crc="62d8f2c7" md5="e96d2935c8e21bbf8aea09541192856b" sha1="e15e1ec80ba5012feb87b169179a4f3b670c9e3d"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 28).bin" size="14970480" crc="7280a7b5" md5="19bcab889419c7764d0a0a1200304367" sha1="0c6d8c5c84989e7ee864a258e85125b1e4113cb9"/>
+		<rom name="Ultra Box Soukangou (Japan) (Track 29).bin" size="1034880" crc="e24fc70c" md5="2db1275d13d684e89499e211d30cae7b" sha1="8d06844a20a6bb6d1dd77c009e885ea762439228"/>
 	</game>
 	<game name="Ultra Box 2-gou (Japan)">
 		<category>Multimedia</category>
@@ -18503,5 +18503,26 @@
 		<rom name="Meteor Blaster DX (USA) (Unl) (Alt) (Track 19).bin" size="39062016" crc="e538d5f3" md5="60214636bc451d52f424e007ace534aa" sha1="8c883e7ee2028626100824315a54c53a8c2fa630"/>
 		<rom name="Meteor Blaster DX (USA) (Unl) (Alt) (Track 20).bin" size="39513600" crc="6a61b09a" md5="45fca02f1c66642e7a0d3e8123666fb4" sha1="77b8140e606b9918bf3504c27c12186f1a8f6eae"/>
 		<rom name="Meteor Blaster DX (USA) (Unl) (Alt) (Track 21).bin" size="27880608" crc="715dc737" md5="7c81df662276854fd808e6335dbdeaa2" sha1="2fc290e18b528405c2232767e8d0d6345d5a6d88"/>
+	</game>
+	<game name="Shin Megami Tensei (Japan) (Rev 2)">
+		<category>Games</category>
+		<description>Shin Megami Tensei (Japan) (Rev 2)</description>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2).cue" size="1770" crc="509716ef" md5="c3a75caef91840512586ecf59426cbd7" sha1="3d65d4fb2e3d6c6d6cad9e693e08f497d24f93de"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 01).bin" size="3311616" crc="46acd89c" md5="f7802dc628b21b0fb02a6b1afe17905c" sha1="9c6c12f93eefd6e2906264d1780503603b2a26ac"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 02).bin" size="18630192" crc="24cc4e59" md5="f3001f32ab45430e546b50ed964ea970" sha1="52d39af9f17e0272e651ac26243638f2f21b8093"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 03).bin" size="1117200" crc="b3521a46" md5="e98a2b196c91b4e40792503153229650" sha1="69de9f7d311cb72d5836631fca40de4054d1f44c"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 04).bin" size="785568" crc="ab676dc1" md5="bfded4015d8590d1482e5ce00b0ea7c9" sha1="5fd9304a4e663d9165d5c5592672d9c8cf994f28"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 05).bin" size="879648" crc="3d38381b" md5="54a1e5848c6547486259afdeae9e7983" sha1="9544d3a4151403213dcb18ae320772de026f6aef"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 06).bin" size="886704" crc="3f0868ff" md5="4dbb005c1f1b3a022ee399a76d7b24be" sha1="398dd78746dca7a56cddea4c4f4bf0d7e7a09767"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 07).bin" size="884352" crc="e8603212" md5="1dbc4086089d2e818b2aae295471dfc4" sha1="91d7018ae4ba48f9d602446c217887190128b813"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 08).bin" size="856128" crc="e064e62c" md5="3e6aec5ffd3e9a81f99fd4967c1daa90" sha1="1237a78d87ab6e69858c6ceebad01da1d901368b"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 09).bin" size="2827104" crc="3834e553" md5="d5a57e2c898f61dde44163d3be2e4326" sha1="ff5d3efacedf486d1a9bc60a089521e678fc3201"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 10).bin" size="1251264" crc="dee5683f" md5="5844210a9500d36c1f6ce6f2d90ed85c" sha1="4c1f126693f312fc1dba8277a411bd369455265f"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 11).bin" size="1154832" crc="9110a00d" md5="33766c28ee6ba3c88bec9b90c3a51852" sha1="13468ffeb8d0e9ad28b99f2cdea35e9aa12763fd"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 12).bin" size="3869040" crc="43f12e48" md5="bab1f1e8d71babae4cc662626efd36d1" sha1="865960bbba6c5b7997eb52b48743d2f6bb891a8b"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 13).bin" size="23275392" crc="9a109a95" md5="cbc7a252b9ba7aec0fe9b873b47b667e" sha1="e83d060f45ffd35e7a09a5d6fddc32e463c6db98"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 14).bin" size="29345904" crc="74cd8142" md5="96dce4947646e9cba944369dbddc5c39" sha1="faf63f20a887179334217743f00c4de929ecd2fa"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 15).bin" size="10666320" crc="148cf911" md5="3786946060a37564703902f60a8808ca" sha1="63f583de0ddce2f81a6db881f34dad5cc61c5f60"/>
+		<rom name="Shin Megami Tensei (Japan) (Rev 2) (Track 16).bin" size="51384144" crc="982ff60e" md5="fdf5b28f621fd09cd497be2e1dfb87a3" sha1="a63ba469d616528d76daeb04dc75cbf85ebd5b7e"/>
 	</game>
 </datafile>

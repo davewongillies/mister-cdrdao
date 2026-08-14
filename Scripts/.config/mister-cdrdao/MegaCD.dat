@@ -3,9 +3,9 @@
 <datafile>
 	<header>
 		<name>Sega - Mega CD &amp; Sega CD</name>
-		<description>Sega - Mega CD &amp; Sega CD - Discs (543) (2025-06-21 03-45-38)</description>
-		<version>2025-06-21 03-45-38</version>
-		<date>2025-06-21 03-45-38</date>
+		<description>Sega - Mega CD &amp; Sega CD - Discs (549) (2026-05-28 18-06-58)</description>
+		<version>2026-05-28 18-06-58</version>
+		<date>2026-05-28 18-06-58</date>
 		<author>redump.org</author>
 		<homepage>redump.org</homepage>
 		<url>http://redump.org/</url>
@@ -5482,13 +5482,6 @@
 		<rom name="Night Trap (Japan) (Demo) (Track 1).bin" size="615875904" crc="03e24407" md5="8e29d7761a3c2119703808c2ddadf6ab" sha1="17cfd321b0c94cef51c269177eab81afa88bc75c"/>
 		<rom name="Night Trap (Japan) (Demo) (Track 2).bin" size="2587200" crc="1cc25944" md5="d47840b34e5286b8c5ecb3514489ee2a" sha1="18fc15b4003126b9874c1c67d2034c8f33a6fa63"/>
 	</game>
-	<game name="Silpheed (Japan) (Demo) (Fixed Dump)">
-		<category>Demos</category>
-		<description>Silpheed (Japan) (Demo) (Fixed Dump)</description>
-		<rom name="Silpheed (Japan) (Demo) (Fixed Dump).cue" size="242" crc="87d9d2bb" md5="cdfa541ecc4e2402e257ce0c520921e0" sha1="d27853b1234e15f6f5fa831166cfabc7cbb077b9"/>
-		<rom name="Silpheed (Japan) (Demo) (Fixed Dump) (Track 1).bin" size="369174624" crc="6b59f551" md5="62114ad0be5d9ce331d90607687a2574" sha1="a04f5372e40ba222489d384dc050524f9574527e"/>
-		<rom name="Silpheed (Japan) (Demo) (Fixed Dump) (Track 2).bin" size="1058400" crc="648c227c" md5="dc35d6b52ac7add94a6d52f480bf89d4" sha1="729c8d0d2eb161d068c48a84826268f9ec790222"/>
-	</game>
 	<game name="Nobunaga no Yabou - Haouden (Japan)">
 		<category>Games</category>
 		<description>Nobunaga no Yabou - Haouden (Japan)</description>
@@ -9979,31 +9972,31 @@
 		<rom name="Supreme Warrior (USA) (Disc 2) (Wind &amp; Fang Tu) (Track 1).bin" size="486273648" crc="812d778e" md5="6ec1c20b47ed8bcc1d8e73ac7d9b05f1" sha1="0da4f14ccb46ded55fe28473796e4fc6d89894f5"/>
 		<rom name="Supreme Warrior (USA) (Disc 2) (Wind &amp; Fang Tu) (Track 2).bin" size="2201472" crc="5d00494c" md5="d89fac047a16e8261047caaef15fe05a" sha1="20ade46671b53922a65e094787d3ae09823263cb"/>
 	</game>
-	<game name="Snatcher (Europe) (Beta) (1994-10-07)">
+	<game name="Snatcher (USA) (Beta) (1994-10-07)">
 		<category>Preproduction</category>
-		<description>Snatcher (Europe) (Beta) (1994-10-07)</description>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07).cue" size="2754" crc="434dc733" md5="7703524a2d2c3ec9a7053508c3cd2c83" sha1="2681293dcb1b0d096fdf57752430856ecc03467b"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 01).bin" size="131744928" crc="b6f1932e" md5="44b57d67b3e216e77d6357abb3e4627f" sha1="606dc65dba04fd95097d0cfc8fed22de7122d786"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 02).bin" size="1164240" crc="d00f54c4" md5="cc325c2484ff41e7d4b0e9060894146b" sha1="ac73d5629875586db0a5d776a13beef377d9a854"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 03).bin" size="23802240" crc="40a49fba" md5="786b30a8b252a61fc91bbabcf4685edb" sha1="43f02ad9d970492426732bfede4c76a0cbf202a2"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 04).bin" size="48345360" crc="e6043e39" md5="6230808a2c1f340f8415cdc49326e155" sha1="ce50b9dad31f960905c5c8d105051b65d45bcada"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 05).bin" size="3716160" crc="c32e9ebe" md5="80ef48d3a8cd6d6d8cf7db175656571a" sha1="9e1374fc524759ba8ceccebad4047e136852fcd4"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 06).bin" size="12740784" crc="a7705e57" md5="03be927bbc866c3158a5a7af03634505" sha1="0310fe11504dc05388a5e025ae1ca0af4fe0e0d6"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 07).bin" size="29404704" crc="fccd71c5" md5="e4d03194b32eca0edb65b92f1f5299a7" sha1="8a124916025294432adee4dd75baf9082d5d7f7b"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 08).bin" size="37843680" crc="2b5cf3d5" md5="749bea144eb88ee76cd19fc93a89adbb" sha1="4d7411ec40205baf5c294f7e16813de8eb493f4b"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 09).bin" size="15412656" crc="afe3dcbf" md5="091c2fe24eee2cc5969a5fd0a4775c10" sha1="697295e985cefec143a2981734d3f93066f16dc7"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 10).bin" size="22769712" crc="9832f63e" md5="f275214198e76b425f76b825fb870dc5" sha1="a27713205d8fac230e54c51cfd773762eb4b5d23"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 11).bin" size="19164096" crc="4150d5c5" md5="7cac1aca396c2b7891d4f86652c1b51e" sha1="00e8f43bf89470b7cbd596c93ef57dcb198d6223"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 12).bin" size="47576256" crc="d6bb6cba" md5="533669bf6b1b22bce349e31d1328be18" sha1="17664b3ab873cb71c158f9df4d28b77fc6620138"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 13).bin" size="20278944" crc="477d9244" md5="f30b732535691c71494c4ab54c375cd3" sha1="a8d0eb4929d5560e631500734e0b309dbc2d5bd9"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 14).bin" size="14445984" crc="749b2596" md5="1af1918aa779911eca30a92ca28bdc05" sha1="ee02d2d226d1a668b11f9b73daaf713212e0492b"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 15).bin" size="13778016" crc="a8562533" md5="48c5cfedac8956afde3e5fb4965deeb2" sha1="644ec8b9ed2e35f00fc40bda24f39f442f72a4e2"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 16).bin" size="3027024" crc="71af88c7" md5="774de00f0effe67e1d2079efbdfc13b5" sha1="1bc854049cbd19f5c5c91eff71731c8a5f844f29"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 17).bin" size="17461248" crc="562edc62" md5="44e8f8cf01786be03858961bdb103c73" sha1="49802ef9c3a3e18dd8e9853e45c8b13069f0a538"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 18).bin" size="8314320" crc="f0a265b6" md5="6a83142465025eb01057686d903893ad" sha1="f0c798e93f582e18209d47631f2e84da2bf008cf"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 19).bin" size="74551344" crc="97dca941" md5="4dc8d5aa81c4a76a951cc92d2e845bfd" sha1="768066f720bd2a57a060097b4bc8c9a19c5d2dab"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 20).bin" size="5844720" crc="b5341397" md5="006364d3667b62b2371a85a2dca67ed5" sha1="5d9fa0f6b1f5e3611df29159cb9d7ce132ae6fb1"/>
-		<rom name="Snatcher (Europe) (Beta) (1994-10-07) (Track 21).bin" size="73805760" crc="cde0a9e4" md5="f22950f393f8d0829a556ff5685a4ce9" sha1="6144d301e257da0709dddaf7df9ad510006a015e"/>
+		<description>Snatcher (USA) (Beta) (1994-10-07)</description>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07).cue" size="2691" crc="a285b223" md5="e020d9136d1b7d69d8a2e71b64a3613c" sha1="2e3b0743e1ab99f62413a1a2889c37b87f9999df"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 01).bin" size="131744928" crc="b6f1932e" md5="44b57d67b3e216e77d6357abb3e4627f" sha1="606dc65dba04fd95097d0cfc8fed22de7122d786"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 02).bin" size="1164240" crc="d00f54c4" md5="cc325c2484ff41e7d4b0e9060894146b" sha1="ac73d5629875586db0a5d776a13beef377d9a854"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 03).bin" size="23802240" crc="40a49fba" md5="786b30a8b252a61fc91bbabcf4685edb" sha1="43f02ad9d970492426732bfede4c76a0cbf202a2"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 04).bin" size="48345360" crc="e6043e39" md5="6230808a2c1f340f8415cdc49326e155" sha1="ce50b9dad31f960905c5c8d105051b65d45bcada"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 05).bin" size="3716160" crc="c32e9ebe" md5="80ef48d3a8cd6d6d8cf7db175656571a" sha1="9e1374fc524759ba8ceccebad4047e136852fcd4"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 06).bin" size="12740784" crc="a7705e57" md5="03be927bbc866c3158a5a7af03634505" sha1="0310fe11504dc05388a5e025ae1ca0af4fe0e0d6"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 07).bin" size="29404704" crc="fccd71c5" md5="e4d03194b32eca0edb65b92f1f5299a7" sha1="8a124916025294432adee4dd75baf9082d5d7f7b"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 08).bin" size="37843680" crc="2b5cf3d5" md5="749bea144eb88ee76cd19fc93a89adbb" sha1="4d7411ec40205baf5c294f7e16813de8eb493f4b"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 09).bin" size="15412656" crc="afe3dcbf" md5="091c2fe24eee2cc5969a5fd0a4775c10" sha1="697295e985cefec143a2981734d3f93066f16dc7"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 10).bin" size="22769712" crc="9832f63e" md5="f275214198e76b425f76b825fb870dc5" sha1="a27713205d8fac230e54c51cfd773762eb4b5d23"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 11).bin" size="19164096" crc="4150d5c5" md5="7cac1aca396c2b7891d4f86652c1b51e" sha1="00e8f43bf89470b7cbd596c93ef57dcb198d6223"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 12).bin" size="47576256" crc="d6bb6cba" md5="533669bf6b1b22bce349e31d1328be18" sha1="17664b3ab873cb71c158f9df4d28b77fc6620138"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 13).bin" size="20278944" crc="477d9244" md5="f30b732535691c71494c4ab54c375cd3" sha1="a8d0eb4929d5560e631500734e0b309dbc2d5bd9"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 14).bin" size="14445984" crc="749b2596" md5="1af1918aa779911eca30a92ca28bdc05" sha1="ee02d2d226d1a668b11f9b73daaf713212e0492b"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 15).bin" size="13778016" crc="a8562533" md5="48c5cfedac8956afde3e5fb4965deeb2" sha1="644ec8b9ed2e35f00fc40bda24f39f442f72a4e2"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 16).bin" size="3027024" crc="71af88c7" md5="774de00f0effe67e1d2079efbdfc13b5" sha1="1bc854049cbd19f5c5c91eff71731c8a5f844f29"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 17).bin" size="17461248" crc="562edc62" md5="44e8f8cf01786be03858961bdb103c73" sha1="49802ef9c3a3e18dd8e9853e45c8b13069f0a538"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 18).bin" size="8314320" crc="f0a265b6" md5="6a83142465025eb01057686d903893ad" sha1="f0c798e93f582e18209d47631f2e84da2bf008cf"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 19).bin" size="74551344" crc="97dca941" md5="4dc8d5aa81c4a76a951cc92d2e845bfd" sha1="768066f720bd2a57a060097b4bc8c9a19c5d2dab"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 20).bin" size="5844720" crc="b5341397" md5="006364d3667b62b2371a85a2dca67ed5" sha1="5d9fa0f6b1f5e3611df29159cb9d7ce132ae6fb1"/>
+		<rom name="Snatcher (USA) (Beta) (1994-10-07) (Track 21).bin" size="73805760" crc="cde0a9e4" md5="f22950f393f8d0829a556ff5685a4ce9" sha1="6144d301e257da0709dddaf7df9ad510006a015e"/>
 	</game>
 	<game name="Batman Returns (USA) (Alt)">
 		<category>Games</category>
@@ -10575,5 +10568,68 @@
 		<rom name="Sonic CD (USA) (RE125) (Alt 2) (Track 33).bin" size="22071168" crc="a2288429" md5="f278a27c3c762d5591a97f0acf7909f2" sha1="91b2a0f494af86caa05d3b8412aa7547decb62e4"/>
 		<rom name="Sonic CD (USA) (RE125) (Alt 2) (Track 34).bin" size="16405200" crc="393386fd" md5="d798e31b863cf5e31ef6e1b242aabe86" sha1="b52aa2b587cd4682e95a56e087cd15e215afa316"/>
 		<rom name="Sonic CD (USA) (RE125) (Alt 2) (Track 35).bin" size="31940160" crc="9cebd39d" md5="dcfce720b4e4cb2236cc54537eb551c5" sha1="f3113ef9547a9242fc93bd6654adeb860f22dc27"/>
+	</game>
+	<game name="Loadstar - The Legend of Tully Bodine (USA) (Beta)">
+		<category>Preproduction</category>
+		<description>Loadstar - The Legend of Tully Bodine (USA) (Beta)</description>
+		<rom name="Loadstar - The Legend of Tully Bodine (USA) (Beta).cue" size="308" crc="ecd1539d" md5="9884739faae9fde68908f95d7a626f51" sha1="0d2a2091bc42e314bacbb76346a523810ded6d37"/>
+		<rom name="Loadstar - The Legend of Tully Bodine (USA) (Beta) (Track 1).bin" size="656137440" crc="764e8c85" md5="1118d66eb68efc0ca9f3e5c373cbcadb" sha1="c57082ef7344c44acb2463bc4cf3de88f0ffe8d3"/>
+		<rom name="Loadstar - The Legend of Tully Bodine (USA) (Beta) (Track 2).bin" size="1258320" crc="a32f8a84" md5="1eb2e5bc68c67c4429f642fc34c31e6a" sha1="2855d99357b775a54b8bbce17d1b000e6c2d2023"/>
+	</game>
+	<game name="Heavy Nova (Japan) (Beta) (1991-11-02)">
+		<category>Preproduction</category>
+		<description>Heavy Nova (Japan) (Beta) (1991-11-02)</description>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02).cue" size="2110" crc="3642313d" md5="192cb352974f5e3e1ae5e423c8bc72e9" sha1="5563dcbf81a8bf533503cb9679979f40d57680fb"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 01).bin" size="2429616" crc="7a28795c" md5="e3b3d16b33165d46e118b6bba014cec1" sha1="197a7ad9a7cf7c10c28cdf07472ee17a1771e121"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 02).bin" size="27847680" crc="e188eff3" md5="1956e8ff353e248e612f7f87a5d9f1e5" sha1="b5b7f2627ac3205a7a9528ef37a519387ce5ee03"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 03).bin" size="54813360" crc="f0cc7a0f" md5="ec9e80433b13cc0392ec1913dd186357" sha1="b573a181930f1ae0ceb8d031e100672d9d4d260c"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 04).bin" size="42027888" crc="05cca3b3" md5="9ec76f16d84304c29a03892177aae889" sha1="6b0d4271a12cf180699bf54cbc5cb7053b1ad7b1"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 05).bin" size="35237664" crc="050de106" md5="7547e9805299d286b71ff6081aa2c491" sha1="e402b9a88b436eadced5e30b03f5372317e0e78d"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 06).bin" size="21932400" crc="a08e3841" md5="f901132d905260844a2c5612027e6bd7" sha1="4bf9dc50345f2f358ffe51e8e4d440c554fa2fca"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 07).bin" size="30785328" crc="c737208b" md5="dae46906c351b1b544305b187bffed37" sha1="b4c5daa001de996a3b47535a19196ebeec58c4d6"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 08).bin" size="32260032" crc="43c79487" md5="2745a20e3c4a409dd454b8f28f7ac40f" sha1="8e0fd67a6afb36167a8e6ba12b09bbccfcd4986d"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 09).bin" size="32681040" crc="ca9d8dcc" md5="40556adba7bc9fa6f20e758f56954b3f" sha1="016e2ab9ae4075b51684dd85382013f26f8577f9"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 10).bin" size="32843328" crc="6d0fe556" md5="2936d156a4864db0f322bffa228fdf3e" sha1="edf0335e1ab083f27249cbcd9532520b96701b57"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 11).bin" size="33080880" crc="bb1427f4" md5="820d0a2ee4d350735c764b93411dcd6d" sha1="445e9bf0d9ea2646f945b4a5199eac1cd9d0e9a2"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 12).bin" size="32001312" crc="d685ceca" md5="1b3a39b2dd18095923dfabde49e825f9" sha1="43e80eedf87f0dd8af1469017b985d307eca275b"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 13).bin" size="32838624" crc="bc6ef41c" md5="6f27482ef3e244eaa528674f3acaede7" sha1="3429d5bdfac5b57895899cde98874d1a69cf25ac"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 14).bin" size="31937808" crc="8418e083" md5="e613951cffb51794a9532409cec308ea" sha1="5dd1e41d232348a25a1322271a2fd3b784389520"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 15).bin" size="27330240" crc="2ab48c63" md5="dfc14a025b4cb7c5c71558f42071f365" sha1="1df1f357c2d60f2236efcb4eea0f387274e409d4"/>
+		<rom name="Heavy Nova (Japan) (Beta) (1991-11-02) (Track 16).bin" size="13740384" crc="121542cb" md5="b6d2d538ef1783aeb334c29349435443" sha1="a94cf256b8c65eb21eb577fec4c627201e51f368"/>
+	</game>
+	<game name="Silpheed (Japan) (Demo) (Reprint)">
+		<category>Demos</category>
+		<description>Silpheed (Japan) (Demo) (Reprint)</description>
+		<rom name="Silpheed (Japan) (Demo) (Reprint).cue" size="259" crc="f8f8b90f" md5="89dbd4badcdecab864ab24ccd2e26151" sha1="282f2a9f866d5496640fba2812e494cd6aa873fb"/>
+		<rom name="Silpheed (Japan) (Demo) (Reprint) (Track 1).bin" size="369174624" crc="6b59f551" md5="62114ad0be5d9ce331d90607687a2574" sha1="a04f5372e40ba222489d384dc050524f9574527e"/>
+		<rom name="Silpheed (Japan) (Demo) (Reprint) (Track 2).bin" size="1060752" crc="a3c16e5e" md5="8fee25227f42a0530e1a0d5329061c17" sha1="5cc076d8eb636c8776832329e55cc47f75515050"/>
+	</game>
+	<game name="Night Trap (USA) (Disc 1) (Limited Run Games)">
+		<category>Games</category>
+		<description>Night Trap (USA) (Disc 1) (Limited Run Games)</description>
+		<rom name="Night Trap (USA) (Disc 1) (Limited Run Games).cue" size="283" crc="60eed7dc" md5="7c2d709829d8ca8c2d0d2420b7d6d55d" sha1="015019aeff0986c7a9b2b914821fe9d31ce0b82e"/>
+		<rom name="Night Trap (USA) (Disc 1) (Limited Run Games) (Track 1).bin" size="617058960" crc="dfd08d74" md5="41052fb9c5a921e1de5056f107ac6374" sha1="e8389b823b5c4305520f3a04591eb2a32ca593d8"/>
+		<rom name="Night Trap (USA) (Disc 1) (Limited Run Games) (Track 2).bin" size="2554272" crc="d3125150" md5="570e12480d4efc06ee1eb59b6eb98f95" sha1="65cfc9cf826aa10eeffa856d85fb6259a1d135d1"/>
+	</game>
+	<game name="Night Trap (USA) (Disc 2) (Limited Run Games)">
+		<category>Games</category>
+		<description>Night Trap (USA) (Disc 2) (Limited Run Games)</description>
+		<rom name="Night Trap (USA) (Disc 2) (Limited Run Games).cue" size="283" crc="1443a379" md5="c23580c9849e99f606ed2da8c9418033" sha1="52b559be83a7a9370b42196c6173887fb6de0be2"/>
+		<rom name="Night Trap (USA) (Disc 2) (Limited Run Games) (Track 1).bin" size="515276160" crc="e495d81e" md5="8729032aa159df4704355e0a036690d2" sha1="7587c0faea4165d1df3182a52923d1f2683517b0"/>
+		<rom name="Night Trap (USA) (Disc 2) (Limited Run Games) (Track 2).bin" size="2554272" crc="8eed3131" md5="7bb9ad7eb5d79931b36e697b30236732" sha1="4b03b673b63f1ecdc7376f85f4aca1b1b790d758"/>
+	</game>
+	<game name="Night Trap (USA) (Disc 1) (Sega CD 32X) (Limited Run Games)">
+		<category>Games</category>
+		<description>Night Trap (USA) (Disc 1) (Sega CD 32X) (Limited Run Games)</description>
+		<rom name="Night Trap (USA) (Disc 1) (Sega CD 32X) (Limited Run Games).cue" size="311" crc="ddb2546c" md5="17187f0e2be94e71047394bd39f8fdcc" sha1="65c713acf7c8d746ba296e695225369e1b9ffbb5"/>
+		<rom name="Night Trap (USA) (Disc 1) (Sega CD 32X) (Limited Run Games) (Track 1).bin" size="617058960" crc="8f9d8a16" md5="46731e3541f48a59e578805aa330a0e1" sha1="8ebd0879df65e4abeea3d93bafa8e9e42ecd4653"/>
+		<rom name="Night Trap (USA) (Disc 1) (Sega CD 32X) (Limited Run Games) (Track 2).bin" size="2554272" crc="8eed3131" md5="7bb9ad7eb5d79931b36e697b30236732" sha1="4b03b673b63f1ecdc7376f85f4aca1b1b790d758"/>
+	</game>
+	<game name="Night Trap (USA) (Disc 2) (Sega CD 32X) (Limited Run Games)">
+		<category>Games</category>
+		<description>Night Trap (USA) (Disc 2) (Sega CD 32X) (Limited Run Games)</description>
+		<rom name="Night Trap (USA) (Disc 2) (Sega CD 32X) (Limited Run Games).cue" size="311" crc="f20519be" md5="cb906d27a292256e52bda9f64ac28a54" sha1="db986ed3d0679ff32f1bdb640ea8f327821b234f"/>
+		<rom name="Night Trap (USA) (Disc 2) (Sega CD 32X) (Limited Run Games) (Track 1).bin" size="515276160" crc="7e7649e2" md5="23ed076db99e1009d8c38e7bf8a01512" sha1="af635148d1290099241843b519e155e81e47198a"/>
+		<rom name="Night Trap (USA) (Disc 2) (Sega CD 32X) (Limited Run Games) (Track 2).bin" size="2554272" crc="a5e04df3" md5="5e6186487cee229884cbdf3a53596882" sha1="e14ea462cb88626abe32f7aa24815f54c70ed40c"/>
 	</game>
 </datafile>
