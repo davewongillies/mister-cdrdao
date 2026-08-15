@@ -1,0 +1,191 @@
+---
+name: Build CDRDAO for MiSTer
+
+"on":
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - chdman
+
+permissions: write-all
+
+jobs:
+  build_mister_cdrdao:
+    runs-on: ubuntu-latest
+    env:
+      BINMERGE_VERSION: 1.0.3
+      CHDMAN_VERSION: 0.289.0
+      CDRDAO_VERSION: 1.2.5
+      GCC_VERSION: 10.2-2020.11
+      SCRIPT_HOME: Scripts/.config/mister-cdrdao
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check binmerge version cache
+        id: cache-check-binmerge
+        uses: actions/cache@v6
+        with:
+          path: /tmp/build-status-binmerge.txt
+          key: binmerge-${{ env.BINMERGE_VERSION }}
+
+      - name: Check cdrdao version cache
+        id: cache-check-cdrdao
+        uses: actions/cache@v6
+        with:
+          path: /tmp/build-status-cdrdao.txt
+          key: cdrdao-${{ env.CDRDAO_VERSION }}
+
+      - name: Check chdman version cache
+        id: cache-check-chdman
+        uses: actions/cache@v6
+        with:
+          path: /tmp/build-status-chdman.txt
+          key: chdman-${{ env.CHDMAN_VERSION }}
+
+      - name: Get binmerge
+        if: steps.cache-check-binmerge.outputs.cache-hit != 'true' ||
+          github.event_name == 'pull_request'
+        run: |
+          wget -q https://github.com/putnam/binmerge/releases/download/${BINMERGE_VERSION}/binmerge-${BINMERGE_VERSION}.zip
+          unzip binmerge-${BINMERGE_VERSION}.zip
+          mv -v binmerge-${BINMERGE_VERSION}/binmerge $SCRIPT_HOME
+          rm -rf binmerge-${BINMERGE_VERSION} binmerge-${BINMERGE_VERSION}.zip
+          chmod +x ${SCRIPT_HOME}/binmerge
+          ${SCRIPT_HOME}/binmerge --license
+
+      - name: Get chdman
+        if: steps.cache-check-chdman.outputs.cache-hit != 'true' ||
+          github.event_name == 'pull_request'
+        run: |
+          wget -q https://github.com/emmercm/chdman-js/raw/refs/tags/v${CHDMAN_VERSION}/packages/chdman-linux-arm/chdman-armv7
+          mv chdman-armv7 ${SCRIPT_HOME}/chdman
+          chmod +x ${SCRIPT_HOME}/chdman
+          file $SCRIPT_HOME/chdman
+
+      - name: Install cdrdao build dependencies
+        if: steps.cache-check-cdrdao.outputs.cache-hit != 'true' ||
+            github.event_name == 'pull_request'
+        run: >
+          sudo apt update &&
+          sudo apt-get install -y -qq
+          autoconf
+          bc
+          binfmt-support
+          bison
+          build-essential
+          curl
+          flex
+          gcc
+          git
+          libelf-dev
+          libgmp3-dev
+          libiberty-dev
+          liblz4-tool
+          libmpc-dev
+          libncurses-dev
+          libncurses5-dev
+          libpci-dev
+          libssl-dev
+          libudev-dev
+          lzop
+          make
+          openssl
+          qemu-user
+          qemu-user-static
+          sharutils
+          u-boot-tools
+          unzip
+
+      - name: Build cdrdao
+        if: steps.cache-check-cdrdao.outputs.cache-hit != 'true' ||
+            github.event_name == 'pull_request'
+        run: |
+          sudo cp /usr/bin/qemu-arm-static /usr/local/bin/
+          sudo update-binfmts --install qemu-arm /usr/local/bin/qemu-arm-static --magic "\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x28\x00" --mask "\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff"
+
+          # Get and unpack the ARM compiler tools for x64
+          wget -q -c https://developer.arm.com/-/media/Files/downloads/gnu-a/${GCC_VERSION}/binrel/gcc-arm-${GCC_VERSION}-x86_64-arm-none-linux-gnueabihf.tar.xz
+          sudo tar xf gcc-arm-${GCC_VERSION}-x86_64-arm-none-linux-gnueabihf.tar.xz -C /opt
+          rm gcc-arm-${GCC_VERSION}-x86_64-arm-none-linux-gnueabihf.tar.xz
+          GCC_ARM_PATH="/opt/gcc-arm-${GCC_VERSION}-x86_64-arm-none-linux-gnueabihf"
+
+          # Setup the PATH to reference the newly unpacked tools.
+          # IMPORTANT: This export is required for configure to pickup the ARM tools
+          # IMPORTANT: so the path must be exported like this.
+          export PATH=${GCC_ARM_PATH}/bin:$PATH
+          # Update symbolic links to reference the ARM libraries needed for the build
+          sudo ln -s ${GCC_ARM_PATH}/arm-none-linux-gnueabihf/libc/lib/ld-linux-armhf.so.3 /lib/ld-linux-armhf.so.3
+          sudo ln -s ${GCC_ARM_PATH}/arm-none-linux-gnueabihf/libc/lib/libc.so.6 /lib/libc.so.6
+          sudo ln -s ${GCC_ARM_PATH}/arm-none-linux-gnueabihf/libc/lib/libpthread.so.0 /lib/libpthread.so.0
+
+          GCC_ARM_PATH="/opt/gcc-arm-${GCC_VERSION}-x86_64-arm-none-linux-gnueabihf"
+          export PATH=${GCC_ARM_PATH}/bin:$PATH
+          CDRDAO_RELEASE="rel_${CDRDAO_VERSION//\./_}"
+          wget -q https://github.com/cdrdao/cdrdao/releases/download/${CDRDAO_RELEASE}/cdrdao-${CDRDAO_VERSION}.tar.bz2
+          tar xf cdrdao-${CDRDAO_VERSION}.tar.bz2
+
+          # Go into the cdrdao-repo directory and configure the build to run for ARM Linux
+          cd cdrdao-${CDRDAO_VERSION}
+          LDFLAGS="-static" ./configure --host=arm-none-linux-gnueabihf
+          make all
+
+          mv -v \
+            ./dao/cdrdao \
+            ./utils/toc2cue  \
+            ../Scripts/.config/mister-cdrdao
+          arm-none-linux-gnueabihf-strip --strip-all ../Scripts/.config/mister-cdrdao/cdrdao
+          arm-none-linux-gnueabihf-strip --strip-all ../Scripts/.config/mister-cdrdao/toc2cue
+          file ../Scripts/.config/mister-cdrdao/cdrdao ../Scripts/.config/mister-cdrdao/toc2cue
+
+          cd ..
+          rm -rf cdrdao-${CDRDAO_VERSION} cdrdao-${CDRDAO_VERSION}.tar.bz2
+          # .github/build-mister-cdrdao.sh
+
+      - name: Get Redump DBs
+        if: github.ref == 'refs/heads/main'
+        run: |
+          for target in PSX:psx Saturn:ss MegaCD:mcd TGFX16-CD:pce NeoGeo-CD:ngcd; do
+            system=`echo $target | awk -F: '{print $1}'`
+            url=`echo $target | awk -F: '{print $2}'`
+            echo "==> Downloading ${system} dat file..."
+            wget -q http://redump.org/datfile/${url}/ -O ${system}.zip
+            unzip -p ${system}.zip > Scripts/.config/mister-cdrdao/${system}.dat
+            rm ${system}.zip
+          done
+
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main'
+        uses: devops-infra/action-commit-push@v1.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: Updated Scripts directory
+
+      - name: Update binmerge cache version
+        if: steps.cache-check-binmerge.outputs.cache-hit != 'true' &&
+          github.ref == 'refs/heads/main'
+        run: >
+          echo "binmerge-${{ env.BINMERGE_VERSION }}" > /tmp/build-status-binmerge.txt
+
+      - name: Update cdrdao cache version
+        if: steps.cache-check-cdrdao.outputs.cache-hit != 'true' &&
+          github.ref == 'refs/heads/main'
+        run: >
+          echo "cdrdao-${{ env.CDRDAO_VERSION }}" > /tmp/build-status-cdrdao.txt
+
+      - name: Update chdman cache version
+        if: steps.cache-check-chdman.outputs.cache-hit != 'true' &&
+          github.ref == 'refs/heads/main'
+        run: >
+          echo "chdman-${{ env.CHDMAN_VERSION }}" > /tmp/build-status-chdman.txt
+
+      - name: Build Custom Database for MiSTer Downloader
+        if: github.ref == 'refs/heads/main'
+        run: >
+          sudo chown -R runner .git ;
+          set -o pipefail
+          && curl --fail --location https://raw.githubusercontent.com/theypsilon/Downloader_DB-Template_MiSTer/main/.github/build_db.py
+          | python3 -
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
