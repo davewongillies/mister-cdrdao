@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 import shutil
 import sys
@@ -7,6 +8,7 @@ import hashlib
 from pathlib import Path
 import mmap
 import glob
+
 
 def reverse_byte_order_16bit(input_file, output_file, padding_bytes=0, chunk_size=4096):
     print(output_file, end='')
@@ -21,7 +23,7 @@ def reverse_byte_order_16bit(input_file, output_file, padding_bytes=0, chunk_siz
 
             for i in range(0, len(mm), chunk_size):
                 print(".", end='', flush=True)
-                chunk = mm[i : i + chunk_size]
+                chunk = mm[i: i + chunk_size]
                 chunk_len = len(chunk)
 
                 if chunk_len % 2 != 0:  # If odd number of bytes, ignore the last one
@@ -35,6 +37,7 @@ def reverse_byte_order_16bit(input_file, output_file, padding_bytes=0, chunk_siz
                 f_out.write(buffer[: len(swapped_chunk)])
     print("")
 
+
 def calculate_md5(file_path):
     md5 = hashlib.md5()
     with open(file_path, "rb") as f:
@@ -42,11 +45,12 @@ def calculate_md5(file_path):
             md5.update(chunk)
     return md5.hexdigest()
 
+
 def parse_cue_file(source_cue_file_name, audio_flag):
     platform = "PSX"
     """Parse and update the .cue file based on Redump database matching."""
     source_cue_file = Path(source_cue_file_name)
-    destination_cue_file = Path(source_cue_file_name.replace(".cue",".new.cue"))
+    destination_cue_file = Path(source_cue_file_name.replace(".cue", ".new.cue"))
     # if we can't get the name of the game we'll swap back to this temp_ version of
     # the file and update it
     track_count = 0
@@ -60,7 +64,7 @@ def parse_cue_file(source_cue_file_name, audio_flag):
         for line in lines:
             parts = line.strip().split(" ")
             command = parts[0]
-            
+
             if command == "FILE":
                 data_file = line.split("\"")[1]
                 md5sum = calculate_md5(data_file)
@@ -90,9 +94,9 @@ def parse_cue_file(source_cue_file_name, audio_flag):
                 parts = line.strip().split(" ")
                 if not parts:
                     continue
-                
+
                 command = parts[0]
-                
+
                 if command == "FILE":
                     track_count += 1
                     binary_file = line.split("\"")[1]
@@ -130,6 +134,7 @@ def parse_cue_file(source_cue_file_name, audio_flag):
             os.remove(destination_cue_file)
         return platform
 
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: script.py <cue_file> [no_audio_flag]")
@@ -139,4 +144,3 @@ if __name__ == "__main__":
     audio_flag = len(sys.argv) == 2  # Default to True if no second argument
 
     print(f"Platform={parse_cue_file(cue_file, audio_flag)}\n")
-
